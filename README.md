@@ -1,35 +1,44 @@
 # Ionic + Filepicker.io example
 
 ======================
-### Example angular project using filepicker.io javascript library for file uploading
-Filepicker JS [docs](https://developers.filepicker.io/docs/web/javascript_api/ "docs")
+### Example ionic project using filepicker.io javascript library for file uploading.
+"Filepicker is a simple plugin for web and mobile uploads." Filepicker JS [docs](https://developers.filepicker.io/docs/web/javascript_api/ "docs")
+"Ionic is the beautiful, open source front-end SDK for developing hybrid mobile apps with web technologies."
 
-Live example [here](http://angular-filepicker-example.aerobaticapp.com/#/ "here")
+### [DEMO]()
+
+Project is based on [tabs starter ionic app](http://ionicframework.com/docs/cli/start.html)
+and require ionic client for development.
+It uses [Filepicker - AngularJS library](https://github.com/filepicker/filepicker-angular) for local and cloud files upload.
+
+Also check [filepicker docs](https://www.filepicker.com/documentation/file-ingestion/javascript-api/pick-and-store?v=v2)
 
 ## Requirements
-
-Project is based on gulp angular [gulp angular generator ](https://github.com/Swiip/generator-gulp-angular "gulp angular generator ")
-
 
 ###  1. You need Node.js
 ```
 brew install node
 ```
 
-###  2. Clone repository
+### 2. Ionic
+```
+npm install -g ionic
+```
+
+###  3. Clone repository
 ```
 git clone git@github.com:krystiangw/angular-filepicker-example.git
 ```
 
-### 3 Install node dependiences
+### 4. In the repository install cordova plugins: [inappbrowser](http://ngcordova.com/docs/plugins/inAppBrowser/) and [cordova-camera](http://learn.ionicframework.com/formulas/cordova-camera/)
+
 ```
-cd angular-filepicker-example
-npm install
-bower install
+cordova plugin add cordova-plugin-inappbrowser
+cordova plugin add org.apache.cordova.camera
 ```
 
 ## Run
-Use gulp to serve locally
+Use ionic to serve locally
 ```
-gulp serve
+ionic serve
 ```

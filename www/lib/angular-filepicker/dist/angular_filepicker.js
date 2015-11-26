@@ -8,7 +8,7 @@ angular.module('angular-filepicker')
 .directive('filepicker', filepickerDirective);
 
 function filepickerDirective($rootScope, filepickerService){
-    return {
+	return {
         restrict: 'A',
         scope:{
             onSuccess:'&'
@@ -17,7 +17,6 @@ function filepickerDirective($rootScope, filepickerService){
             /*
                 pass orinal event
             */
-            console.log('dupa')
             element.bind('change', function(event) {
                 event.preventDefault();
                 scope.onSuccess({event: event.originalEvent || event});
@@ -26,10 +25,13 @@ function filepickerDirective($rootScope, filepickerService){
 
             element = element.length ? element[0] : element;
 
-            filepickerService.constructWidget(element);
+        	filepickerService.constructWidget(element);
         }
     };
-}'use strict';
+};
+
+
+'use strict';
 
 angular.module('angular-filepicker')
 .provider('filepicker', function() {
