@@ -1,0 +1,37 @@
+{
+  "name": "angular-filepicker",
+  "version": "1.1.2",
+  "homepage": "https://github.com/krystiangw/angular-filepicker",
+  "description": "Filepicker library for AngularJS.",
+  "main": "dist/angular_filepicker.js",
+  "keywords": [
+    "filepicker",
+    "angular",
+    "upload"
+  ],
+  "authors": [
+    "krystiangw"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0",
+    "filepicker-js": "2.3.1"
+  },
+  "_release": "1.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.2",
+    "commit": "a9528a03be48f99116b51820cd4eac1095bf9c8e"
+  },
+  "_source": "git://github.com/krystiangw/angular-filepicker.git",
+  "_target": "1.1.2",
+  "_originalSource": "angular-filepicker"
+}

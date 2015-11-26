@@ -1,0 +1,17 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="file in files" type="item-text-wrap" href="#/tab/chats/{{file.id}}">
+        <img ng-src="{{file.url | fpConvert: {w: 100} }}">
+        <h2>{{file.filename}}</h2>
+        <p><strong>Mimetype: </strong>{{file.mimetype}} <strong>Size: </strong>{{file.size}}</p>
+        <p><strong>Url</strong>: {{file.url}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(file.id)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

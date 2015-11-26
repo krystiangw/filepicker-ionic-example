@@ -1,0 +1,13 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{file.filename}}">
+  <ion-content class="padding">
+    <img ng-src="{{file.url}}" style="height: 144px">
+    <p><strong>Mimetype: </strong>{{file.mimetype}} <strong>Size: </strong>{{file.size}}</p>
+    <p><strong>Filepicker url: </strong>{{file.url}}</p>
+  </ion-content>
+</ion-view>
