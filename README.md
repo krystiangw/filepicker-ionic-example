@@ -1,11 +1,11 @@
 # Ionic + Filepicker.io example
 
 ======================
-### Example ionic project using filepicker.io javascript library for file uploading.
-"Filepicker is a simple plugin for web and mobile uploads." Filepicker JS [docs](https://developers.filepicker.io/docs/web/javascript_api/ "docs")
-"Ionic is the beautiful, open source front-end SDK for developing hybrid mobile apps with web technologies."
+### Example ionic project using [Filepicker - AngularJS library](https://github.com/filepicker/filepicker-angular) for file uploading.
+* "Filepicker is a simple plugin for web and mobile uploads." Filepicker JS [docs](https://developers.filepicker.io/docs/web/javascript_api/ "docs")
+* "Ionic is the beautiful, open source front-end SDK for developing hybrid mobile apps with web technologies."
 
-### [DEMO]()
+### [DEMO](http://krystiangw.github.io/filepicker-ionic-example/www/)
 
 Project is based on [tabs starter ionic app](http://ionicframework.com/docs/cli/start.html)
 and require ionic client for development.
@@ -30,7 +30,9 @@ npm install -g ionic
 git clone git@github.com:krystiangw/angular-filepicker-example.git
 ```
 
-### 4. In the repository install cordova plugins: [inappbrowser](http://ngcordova.com/docs/plugins/inAppBrowser/) and [cordova-camera](http://learn.ionicframework.com/formulas/cordova-camera/)
+### 4. In the repository install cordova plugins: 
+[inappbrowser](http://ngcordova.com/docs/plugins/inAppBrowser/) 
+[cordova-camera](http://learn.ionicframework.com/formulas/cordova-camera/)
 
 ```
 cordova plugin add cordova-plugin-inappbrowser
