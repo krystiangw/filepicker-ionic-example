@@ -4,7 +4,6 @@
   <description>
         An Ionic Framework and Cordova project.
     </description>
-  <allow-navigation href="*" />
   <allow-navigation href="*://*.filepicker.io/*" />
   <author email="hi@ionicframework" href="http://ionicframework.com/">
       Ionic Framework Team
